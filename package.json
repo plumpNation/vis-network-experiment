@@ -1,4 +1,8 @@
 {
+	"scripts": {
+		"start": "parcel serve ./src/index.html",
+		"build": "parcel build ./src/index.html"
+	},
 	"dependencies": {
 		"parcel": "^2.0.0-rc.0",
 		"vis-network": "^9.0.5"
